@@ -9,8 +9,8 @@ Summary(pl):	Clone - modu³ Perla obs³uguj±cy rekursywne kopiowanie zmiennych w P
 Name:		perl-Clone
 Version:	0.15
 Release:	1
-# as perl itself
-License:	GPL or Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{version}.tar.gz
 # Source0-md5:	5cac94da96835758462133f3afd8fe22
