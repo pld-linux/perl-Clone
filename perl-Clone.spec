@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Clone
 Summary:	Clone - Perl module for recursively copying Perl datatypes
-Summary(pl):	Clone - modu³ Perla obs³uguj±cy rekursywne kopiowanie zmiennych w Perl'u
+Summary(pl):	Clone - modu³ Perla obs³uguj±cy rekursywne kopiowanie zmiennych w Perlu
 Name:		perl-Clone
 Version:	0.15
 Release:	1
@@ -25,8 +25,8 @@ variables and objects.
 
 %description -l pl
 Ten modu³ dostarcza clone(), metodê s³u¿±c± do rekurencyjnego
-kopiowania zagnie¿d¿onych tablic asocjacyjnych, referencji, zwi±zanych
-zmiennych i obiektów.
+kopiowania zagnie¿d¿onych tablic asocjacyjnych, tablic, skalarów i
+referencji, w³±cznie ze zwi±zanymi zmiennymi i obiektami.
 
 %prep
 %setup -q -n %{pdir}-%{version}
