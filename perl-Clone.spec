@@ -3,7 +3,7 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Clone
+%define		pdir	Clone
 Summary:	Clone - Perl module for recursively copying Perl datatypes
 Summary(pl):	Clone - modu³ Perla obs³uguj±cy rekursywne kopiowanie zmiennych w Perlu
 Name:		perl-Clone
