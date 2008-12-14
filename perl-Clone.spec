@@ -7,13 +7,13 @@
 Summary:	Clone - Perl module for recursively copying Perl datatypes
 Summary(pl.UTF-8):	Clone - moduł Perla obsługujący rekursywne kopiowanie zmiennych w Perlu
 Name:		perl-Clone
-Version:	0.28
-Release:	2
+Version:	0.30
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Clone/%{pdir}-%{version}.tar.gz
-# Source0-md5:	16186d984e358ab3ca069d00c81b7e5c
+# Source0-md5:	e94bf0a694edab03f80f801712e297ac
 URL:		http://search.cpan.org/dist/Clone/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
