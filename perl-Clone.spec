@@ -1,22 +1,22 @@
 #
 # Conditional build:
-%bcond_without	tests	# do not perform "make test"
+%bcond_without	tests	# unit tests
 #
 %define		pdir	Clone
 Summary:	Clone - Perl module for recursively copying Perl datatypes
 Summary(pl.UTF-8):	Clone - moduł Perla obsługujący rekursywne kopiowanie zmiennych w Perlu
 Name:		perl-Clone
-Version:	0.45
-Release:	3
+Version:	0.46
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Clone/%{pdir}-%{version}.tar.gz
-# Source0-md5:	b101333499b638658f89e29458cd83c0
+# Source0-md5:	cafa8984a2c2e005e54b27dd1e3f0afe
 URL:		https://metacpan.org/release/Clone
 %if %{with tests}
 BuildRequires:	perl-B-COW >= 0.004
-BuildRequires:	perl-Test-Simple
+BuildRequires:	perl-Test-Simple >= 0.88
 %endif
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
