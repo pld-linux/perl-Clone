@@ -13,7 +13,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Clone/%{pdir}-%{version}.tar.gz
 # Source0-md5:	cafa8984a2c2e005e54b27dd1e3f0afe
-URL:		https://metacpan.org/release/Clone
+URL:		https://metacpan.org/dist/Clone
 %if %{with tests}
 BuildRequires:	perl-B-COW >= 0.004
 BuildRequires:	perl-Test-Simple >= 0.88
