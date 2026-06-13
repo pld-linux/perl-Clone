@@ -11,7 +11,7 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	https://www.cpan.org/modules/by-module/Clone/%{pdir}-%{version}.tar.gz
+Source0:	https://www.cpan.org/modules/by-module/Clone/ATOOMIC/%{pdir}-%{version}.tar.gz
 # Source0-md5:	792aa8855c32abb22b814cd9182076e5
 URL:		https://metacpan.org/dist/Clone
 %if %{with tests}
@@ -57,7 +57,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes
+%doc Changes SECURITY.md
 %{perl_vendorarch}/Clone.pm
-%attr(755,root,root) %{perl_vendorarch}/auto/Clone/Clone.so
+%{perl_vendorarch}/auto/Clone/Clone.so
 %{_mandir}/man3/Clone.3pm*
